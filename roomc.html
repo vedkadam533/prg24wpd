@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Luxury Suites</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #0b0e1a, #151b2f);
+            color: white;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 40px 0;
+        }
+
+        h2 {
+            color: #f5b041;
+        }
+
+        .btn {
+            background: #f5b041;
+            color: black;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: #1c2238;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 33%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .price {
+            color: #f5b041;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .section {
+            margin-top: 60px;
+        }
+
+        .popular {
+            background: #f5b041;
+            color: black;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .stars {
+            color: #f5b041;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <button class="btn">Book Rooms</button>
+        <h2>Luxury Suites</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1560185127-6ed189bf02f4">
+                <div class="card-content">
+                    <h3>Royal Dining Suite</h3>
+                    <p>Private luxury room with premium dining setup.</p>
+                    <div class="price">₹5000 / night</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511">
+                <div class="card-content">
+                    <h3>Golden Executive Room</h3>
+                    <p>Spacious suite with elegant interiors.</p>
+                    <div class="price">₹4500 / night</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32">
+                <div class="card-content">
+                    <h3>VIP Celebration Hall</h3>
+                    <p>Perfect for private parties.</p>
+                    <div class="price">₹7000 / night</div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="section">
+
+            <h2>Top-Rated Rooms & Facilities</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5">
+                    <div class="card-content">
+                        <span class="popular">POPULAR</span>
+                        <div class="stars">★★★★★</div>
+                        <h3>Golden Executive Room</h3>
+                        <p><b>435</b> Reviews</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c">
+                    <div class="card-content">
+                        <span class="popular">POPULAR</span>
+                        <div class="stars">★★★★★</div>
+                        <h3>Dining Area</h3>
+                        <p><b>382</b> Reviews</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
